@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: 'Mars',
+      parameters: [
+        {
+          baseColor: 'Mars_diff',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/marte.obj',
+    name: 'marte',
+    recenter: 'root',
+    scale: 0.0010610000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampleData\\Mars_diff.jpg',
+      name: 'Mars_diff',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Mars_diff.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

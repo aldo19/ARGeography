@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "378166657383",
+    "firebase_url": "https://arge-cbeb9.firebaseio.com",
+    "project_id": "arge-cbeb9",
+    "storage_bucket": "arge-cbeb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378166657383:android:2c0c36d8dd30f045876fc2",
+        "android_client_info": {
+          "package_name": "com.teamfive.argeography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378166657383-tord2n6o5siho1bl58g57spq6kbcvftt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamfive.argeography",
+            "certificate_hash": "85a5aca9b5dfe09476360d3fe52d0758d3daad30"
+          }
+        },
+        {
+          "client_id": "378166657383-mgida9a0t3bccr8q0i308kr6egiti5kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ6Oj27Zh65-KV3AxAOGYYtvHUG07L80g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378166657383-re9bfavq5vuqnvfi6ojq2ks4e8dbrphm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

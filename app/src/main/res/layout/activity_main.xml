@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:background="@drawable/drawtwo"
+            >
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:alpha="0.8"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginTop="0dp">
+                <androidx.appcompat.widget.AppCompatCheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iniciar Sesion"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000">
+                </androidx.appcompat.widget.AppCompatCheckedTextView>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                app:boxStrokeColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="User name">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etusuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:inputType="text">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                app:boxStrokeColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="Password">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etcontra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:inputType="textPassword">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/registrar"
+                android:layout_width="200dp"
+                android:layout_height="37dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:text="Create account"
+                android:textAllCaps="false"
+                android:textColor="#000000">></Button>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btninicia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#fff"
+                android:text="Iniciar"
+                android:textColor="#000000"
+                android:textAllCaps="false">
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="O"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"></TextView>
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btngoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="        Iniciar sesion con Google"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textColor="#000000"
+                android:backgroundTint="#fff"
+                android:textAllCaps="false"
+                android:textAlignment="textStart">
+            </com.google.android.gms.common.SignInButton>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

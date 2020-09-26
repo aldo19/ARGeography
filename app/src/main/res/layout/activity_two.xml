@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".two"
+    android:background="@drawable/fondodos">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bth"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/sistem"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bthclimas"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/clima"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bthconti"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/conti"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false">
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
